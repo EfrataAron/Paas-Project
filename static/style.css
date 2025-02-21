@@ -1,0 +1,86 @@
+/* Apply global styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Heading Styling */
+h1 span {
+    color: #ffeb3b;
+}
+
+/* Button Styling */
+button {
+    background-color: #ffeb3b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffd600;
+    transform: scale(1.1);
+}
+
+/* Info Section Styling */
+.info {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Subheadings in the Info Section */
+.info h2, .info h3 {
+    color: #ffeb3b;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.info p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Group Members List */
+.info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info ul li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: white;
+}
